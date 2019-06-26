@@ -17,9 +17,8 @@ An of course, you can use it to access all the API through python.
 
 """
 
-from . import pyvSphere
-from pyvSphere import vSphere
-from utils.winutils import Process, WinUtils
+from .pyvSphere import vSphere
+from .utils.winutils import Process, WinUtils
 
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
